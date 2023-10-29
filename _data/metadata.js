@@ -1,11 +1,11 @@
 module.exports = {
-	title: "Eleventy Base Blog v8",
-	url: "https://example.com/",
+	title: "Eink Italia: The Future of Digital Reading & Eye Comfort",
+	url: "https://einkitalia.com/",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Explore the groundbreaking world of Eink with Eink Italia. Discover top-tier Eink products, benefits, and the technology's profound impact on eye health in the digital age. Join the Eink revolution today.",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Adriano Urso",
+		email: "ajaneu@gmail.com",
+		url: "https://einkitalia.com/about/"
 	}
 }
