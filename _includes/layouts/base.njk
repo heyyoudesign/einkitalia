@@ -1,17 +1,48 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
+<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ title or metadata.title }}</title>
+		<!-- Welcome stranger! I'm not minifying my html so you can look under the hood. -->
+
+		<!-- 1 charset/http-equiv/viewport -->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- 2 title -->
+		<title>
+		{% if seo.title %} {{ seo.title }}
+		{% elif title %}
+		{{ title }} | {{ meta[page.lang].siteName }}
+		{% else %}
+		{{ meta[page.lang].siteName }}
+		{% endif %}
+		</title>
+
 		<meta name="description" content="{{ description or metadata.description }}">
+
+		<link rel="alternate" hreflang="{{ page.lang }}" href="{{ meta.url }}{{ page.url }}" />
+
+			{% for link in page.url | locale_links %}
+			<link
+			rel="alternate"
+			hreflang="{{ link.lang }}"
+			href="{{ meta.url }}{{ link.url }}"
+			/>
+			{% endfor %}
+
+		<!-- Canonical URL here -->
+		<link
+			rel="alternate"
+			hreflang="x-default"
+			href="{{ meta.url }}{{ page.url | locale_url('en') }}"
+		/>
 
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+		<meta name="generator" content="{{ eleventy.generator }}">
 
 		{#-
 		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
@@ -32,14 +63,44 @@
 		<style>{% getBundle "css" %}</style>
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+
+		<!-- stylesheet here -->
+
+		<!-- Set the base URL for all relative URLs within the document -->
+		<base href="{{ page.url }}" />
+
+		<meta
+		name="description"
+		content="{% if seo.description %}{{ seo.description }}{% elif description %}{{
+			description
+		}}{% else %}{{ meta[page.lang].siteDescription }}{% endif %}"
+		/>
+
+		<meta name="robots" content="index,follow" /><!-- All Search Engines -->
+		<meta name="googlebot" content="index,follow" /><!-- Google Specific -->
+		<meta
+		name="generator"
+		content="{{ eleventy.generator }}"
+		/><!-- thank you, Zach Leatherman -->
+		<meta
+		name="format-detection"
+		content="telephone=no"
+		/><!-- Disable automatic detection and formatting of possible phone numbers -->
+		<link
+		rel="canonical"
+		href="{{ meta.url }}{{ page.url }}"
+		/><!-- Helps prevent duplicate content issues -->
+
+		
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
+		{#- 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<a href="{{ "/" | locale_url }}" class="home-link">{{ metadata.title }}</a>
 
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ 
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
@@ -51,13 +112,17 @@
 					-->
 				</ul>
 			</nav>
+			{% include "footer.njk" %}
 		</header>
+		#}
+		
+		{% include "layouts/header.njk" %}
 
 		<main id="skip">
 			{{ content | safe }}
 		</main>
 
-		<footer></footer>
+		{% include "layouts/footer.njk" %}
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>

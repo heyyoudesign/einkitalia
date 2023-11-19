@@ -1,5 +1,6 @@
 ---
 layout: layouts/base.njk
+slugOverride: About us
 eleventyNavigation:
   key: About
   order: 3

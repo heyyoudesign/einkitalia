@@ -1,0 +1,11 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: blogs_it
+  order: 2
+lang: it
+---
+<h3>Articoli in italiano:</h3>
+
+{% set postslist = collections["blog_" + page.lang] %}
+{% include "postslist.njk" %}

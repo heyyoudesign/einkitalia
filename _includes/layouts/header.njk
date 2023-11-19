@@ -1,0 +1,42 @@
+{% set activePage = page.url %}
+
+{# <a href="#main" class="skip-link">{{ languages[page.lang].skipText }}</a> #}
+<header>
+<a class="logo" href="{{ "/" | locale_url }}" class="home-link">{{ metadata.title }}</a>
+
+<h2 class="visually-hidden">Top level navigation menu</h2>
+  <nav aria-label="{{ languages[page.lang].ariaPrimary }}">
+    <ul class="nav">
+      {% for item in navigation[page.lang] %}
+      <li class="nav-item">
+        <a
+          href="{{ item.url }}"
+          {{
+          helpers.getLinkActiveState(item.url,
+          page.url)
+          |
+          safe
+          }}
+          >{{ item.text }}</a
+        >
+      </li>
+      {% endfor %}
+      {# <li>
+        <a href="https://github.com/madrilene/eleventy-i18n">GitHub</a>
+      </li> #}
+    </ul>
+  </nav>
+
+  <!-- alternative language switcher -->
+  <nav class="lang-switcher" aria-label="Lamguage switcher">
+    <a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
+      {{ languages[page.lang].emoji | upper }}
+    </a> /    
+    {% for link in page.url | locale_links %}
+    <a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+      {{ languages[link.lang].emoji | upper }}</a
+    >
+    {% endfor %}
+  </nav>
+
+</header>

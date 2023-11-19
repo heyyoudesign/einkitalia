@@ -10,8 +10,15 @@ layout: layouts/base.njk
 		<li>Discover <a href="/about">Who we are</a>.</li>
 		<li>Delete this message from <code>_includes/layouts/home.njk</code>.</li>
 	</ol> 
+	{{ languages[page.lang].messageBox }}
 	-->
-	<p><em>Embark on this enlightening <code>Eink</code> journey, where technology harmoniously meets well-being. 🌟👀📖</em></p>
+	<p>
+	{% if page.lang == "it" %}
+		<em>Immergiti in questo incantevole viaggio con gli <code>Eink</code>, dove la tecnologia incontra armoniosamente il benessere. 🌟👀📖</em>
+	{% else %}
+		<em>Embark on this enlightening <code>Eink</code> journey, where technology harmoniously meets well-being. 🌟👀📖</em>
+	{% endif %}
+	</p>
 </div>
 <!-- Stop deleting -->
 

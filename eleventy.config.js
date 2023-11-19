@@ -9,6 +9,18 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
+
+// module import collections
+const {
+	getProjectsEN,
+	getBlogsEN,
+	getProjectsIT,
+	getBlogsIT,
+	getBlogsAllFullLang,
+	getBlogsAllLang
+  } = require('./config/collections/index.js');
+  
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -36,6 +48,36 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(pluginBundle);
+	
+	// [adry] i18n plugin for multilanguage
+	eleventyConfig.addPlugin(EleventyI18nPlugin, {
+		// any valid BCP 47-compatible language tag is supported
+		defaultLanguage: "it", // Required, this site uses "en"
+	
+		// Rename the default universal filter names
+		filters: {
+		  // transform a URL with the current page’s locale code
+		  url: "locale_url",
+	
+		  // find the other localized content for a specific input file
+		  links: "locale_links"
+		},
+	
+		// When to throw errors for missing localized content files
+		// errorMode: "strict", // throw an error if content is missing at /en/slug
+		errorMode: "allow-fallback", // only throw an error when the content is missing at both /en/slug and /slug
+		// errorMode: "never", // don’t throw errors for missing content
+	  });
+
+	    // 	--------------------- Custom collections -----------------------
+		eleventyConfig.addCollection('projects_en', getProjectsEN);
+		eleventyConfig.addCollection('blog_en', getBlogsEN);
+		eleventyConfig.addCollection('projects_it', getProjectsIT);
+		eleventyConfig.addCollection('blog_it', getBlogsIT);
+
+		eleventyConfig.addCollection('blog_all_full', getBlogsAllFullLang);
+		eleventyConfig.addCollection('blog_all', getBlogsAllLang);
+
 
 	// Filters
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
