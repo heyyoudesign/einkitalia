@@ -167,9 +167,9 @@ a.logo {
 	font-weight: bold;
 }
 a.logo:hover {
-	/* text-decoration: underline; */
-	color: darkorange;
-	background-color: #17050F;
+	text-decoration: underline;
+	/* color: darkorange;
+	background-color: #17050F; */
 }
 .logo {
 	display: flex;
