@@ -1,25 +1,3 @@
-# redirect to italian or english landing pages
-
-[[redirects]]
-  from = "/*"
-  to = "/en"
-  status = 302
-  force= true
-  conditions = {Language = ["en"]}
-
-[[redirects]]
-	from = "/*"
-	to = "/it"
-	status = 302
-	force = true
-	conditions = {Language = ["it"]}
-
-[[redirects]]
-	from = "/*"
-	to = "/it"
-	status = 302
-	force = true
-
 [[headers]]
     for = "/*"
     [headers.values]
@@ -47,11 +25,11 @@
 	package = "@netlify/plugin-lighthouse"
 
 	# optional, fails build when a category is below a threshold
-	[plugins.inputs.thresholds]
-		performance = 0.1
-		accessibility = 0.1
-		best-practices = 0.1
-		seo = 0.1
+	# [plugins.inputs.thresholds]
+	#	performance = 0.1
+	#	accessibility = 0.1
+	#	best-practices = 0.1
+	#	seo = 0.1
 
-	[plugins.inputs]
-		output_path = "reports/lighthouse/index.html"
+	# [plugins.inputs]
+	#	output_path = "reports/lighthouse/index.html"
