@@ -31,12 +31,6 @@
     Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
     Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
 
-[[plugins]]
-	package = "netlify-plugin-cache"
-		[plugins.inputs]
-		paths = [ ".cache" ]
-
-
 [build]
 	publish = "_site"
 	command = "npm run build"
@@ -61,3 +55,7 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
+
+	package = "netlify-plugin-cache"
+	[plugins.inputs]
+		paths = [ ".cache" ]
