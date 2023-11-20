@@ -1,4 +1,4 @@
-# redirect to german, spanish or english landing pages
+# redirect to italian or english landing pages
 
 [[redirects]]
   from = "/*"
@@ -8,17 +8,17 @@
   conditions = {Language = ["en"]}
 
 [[redirects]]
-  from = "/*"
-  to = "/it"
-  status = 302
-  force = true
-  conditions = {Language = ["it"]}
+	from = "/*"
+	to = “/it”
+	status = 302
+	force = true
+	conditions = {Language = [“it”]}
 
 [[redirects]]
-  from = "/*"
-  to = "/it"
-  status = 302
-  force = true
+	from = "/*"
+	to = "/it"
+	status = 302
+	force = true
 
 [build]
 	publish = "_site"
