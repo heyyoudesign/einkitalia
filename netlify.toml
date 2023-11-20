@@ -1,3 +1,25 @@
+# redirect to german, spanish or english landing pages
+
+[[redirects]]
+  from = "/"
+  to = "/en"
+  status = 302
+  force= true
+  conditions = {Language = ["en"]}
+
+[[redirects]]
+  from = "/"
+  to = "/it"
+  status = 302
+  force = true
+  conditions = {Language = ["it"]}
+
+[[redirects]]
+  from = "/"
+  to = "/it"
+  status = 302
+  force = true
+
 [build]
 	publish = "_site"
 	command = "npm run build"
@@ -22,25 +44,3 @@
 
 	[plugins.inputs]
 		output_path = "reports/lighthouse/index.html"
-
-# redirect to german, spanish or english landing pages
-
-[[redirects]]
-  from = "/"
-  to = "/en"
-  status = 302
-  force= true
-  conditions = {Language = ["en"]}
-
-[[redirects]]
-  from = "/"
-  to = "/it"
-  status = 302
-  force = true
-  conditions = {Language = ["it"]}
-
-[[redirects]]
-  from = "/"
-  to = "/it"
-  status = 302
-  force = true
