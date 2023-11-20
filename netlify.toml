@@ -9,10 +9,10 @@
 
 [[redirects]]
 	from = "/*"
-	to = “/it”
+	to = "/it"
 	status = 302
 	force = true
-	conditions = {Language = [“it”]}
+	conditions = {Language = ["it"]}
 
 [[redirects]]
 	from = "/*"
