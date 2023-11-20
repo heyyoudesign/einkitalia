@@ -5,6 +5,8 @@ date: 2023-01-23
 draft: false
 tags:
   - benefit
+  - stories
+key: 04-from-paper-to-screen
 ---
 As the mediums of writing shifted from stones to papyrus, to paper, and now to screens, the essence of communication remains intact. EInk serves as a bridge, capturing the tactile warmth of paper while offering the advantages of digital, be it search, storage, or sharing.
 

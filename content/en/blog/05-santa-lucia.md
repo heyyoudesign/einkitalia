@@ -5,10 +5,11 @@ date: 2023-09-30
 tags:
   - stories
   - benefit
+key: 05-santa-lucia
 ---
 Revered in tales and traditions, Saint Lucia is a beacon for eye protection. In an era dominated by screens, adapting EInk not only symbolizes honoring her legacy but also actively working towards healthier eye practices.
 
-{% image "./possum.png", "A possum parent and two possum kids hanging from the iconic red balloon" %}
+{% image "../../../public/img/santa-lucia-stilizzata-in-tablet.png", "A stylized black and white illustration of Saint Lucia, in an e-ink tablet display." %}
 
 **Santa Lucia: The Ancient Guardian of Vision and the Modern Relevance in Screen Age**
 
