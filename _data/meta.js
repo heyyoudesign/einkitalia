@@ -2,7 +2,7 @@
 module.exports = {
     url: process.env.URL || 'http://localhost:8080',
     siteName: "Eink Italia: il futuro della lettura digitale e del benessere della vista",
-    siteDescription: "Esplora il meravigliosono mondo degli Eink conn Eink Italia. Scopri i migliori prodotti Eink, i benefici, e il profondo impatto di questa splendida tecnologia sulla salute dei nostri occhi. Entra a far parte della rivoluzione Eink oggi!",
+    siteDescription: "Esplora il meraviglioso mondo degli Eink con Eink Italia. Scopri i migliori prodotti Eink, i benefici, e il profondo impatto di questa splendida tecnologia sulla salute dei nostri occhi. Entra a far parte della rivoluzione Eink oggi!",
     domain: 'einkitalia.com',
     siteType: 'Organization', // schema
     author: 'Adriano Urso',
@@ -90,7 +90,7 @@ module.exports = {
       localeCode: 'it_IT',
       long: 'Italiano',
       siteName: "Eink Italia: il futuro della lettura digitale e del benessere della vista",
-      siteDescription: "Esplora il meravigliosono mondo degli Eink conn Eink Italia. Scopri i migliori prodotti Eink, i benefici, e il profondo impatto di questa splendida tecnologia sulla salute dei nostri occhi. Entra a far parte della rivoluzione Eink oggi!",
+      siteDescription: "Esplora il meraviglioso mondo degli Eink con Eink Italia. Scopri i migliori prodotti Eink, i benefici, e il profondo impatto di questa splendida tecnologia sulla salute dei nostri occhi. Entra a far parte della rivoluzione Eink oggi!",
       back: 'Torna indietro',
       skipText: 'Vai al contenuto principale',
       toc: 'indice dei contenuti',
