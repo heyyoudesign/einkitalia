@@ -1,5 +1,5 @@
 ---
-title: Who Can Benefit? 🤔
+title: A Chi Può Fare Bene? 🤔
 description: Migliorare la produttività e la salute in azienda. Lavorare più a lungo senza affaticare gli occhi. Eink si adatta al vostro stile di vita, offrendo flessibilità senza gli svantaggi degli schermi tradizionali.
 date: 2023-03-10
 tags:
