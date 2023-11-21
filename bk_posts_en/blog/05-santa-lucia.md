@@ -1,13 +1,13 @@
 ---
 title: Santa Lucia, the Protector of the Eyes 🌟
-description: Revered in tales and traditions, Saint Lucia is a beacon for eye protection. In an era dominated by screens, adapting EInk not only symbolizes honoring her legacy but also actively working towards healthier eye practices.
+description: Revered in tales and traditions, Saint Lucia is a beacon for eye protection. In an era dominated by screens, adapting Eink not only symbolizes honoring her legacy but also actively working towards healthier eye practices.
 date: 2023-09-30
 tags:
   - stories
   - benefit
 key: 05-santa-lucia
 ---
-Revered in tales and traditions, Saint Lucia is a beacon for eye protection. In an era dominated by screens, adapting EInk not only symbolizes honoring her legacy but also actively working towards healthier eye practices.
+Revered in tales and traditions, Saint Lucia is a beacon for eye protection. In an era dominated by screens, adapting Eink not only symbolizes honoring her legacy but also actively working towards healthier eye practices.
 
 {% image "./public/img/santa-lucia-stilizzata-in-tablet.png", "A stylized black and white illustration of Saint Lucia, in an e-ink tablet display." %}
 

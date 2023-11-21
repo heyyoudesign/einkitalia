@@ -1,6 +1,6 @@
 ---
 title: Il Futuro dei Nostri Occhi  🌏🔍
-description: Al suo nucleo, l'EInk utilizza migliaia di microcapsule sospese in un liquido, riflettendo o assorbendo la luce per formare immagini. Questo metodo di visualizzazione passiva è amico degli occhi ed efficiente dal punto di vista energetico. Le imprese cinesi, sempre all'avanguardia nell'innovazione tecnologica, sono ora attori chiave nell'industria dell'EInk.
+description: Al suo nucleo, l'Eink utilizza migliaia di microcapsule sospese in un liquido, riflettendo o assorbendo la luce per formare immagini. Questo metodo di visualizzazione passiva è amico degli occhi ed efficiente dal punto di vista energetico. Le imprese cinesi, sempre all'avanguardia nell'innovazione tecnologica, sono ora attori chiave nell'industria dell'Eink.
 date: 2023-03-10
 tags:
   - technology
@@ -8,7 +8,7 @@ tags:
   - wellbeing
 key: 08-the-future-of-our-eyes
 ---
-Al suo nucleo, l'EInk utilizza migliaia di microcapsule sospese in un liquido, riflettendo o assorbendo la luce per formare immagini. Questo metodo di visualizzazione passiva è amico degli occhi ed efficiente dal punto di vista energetico. Le imprese cinesi, sempre all'avanguardia nell'innovazione tecnologica, sono ora attori chiave nell'industria dell'EInk.
+Al suo nucleo, l'Eink utilizza migliaia di microcapsule sospese in un liquido, riflettendo o assorbendo la luce per formare immagini. Questo metodo di visualizzazione passiva è amico degli occhi ed efficiente dal punto di vista energetico. Le imprese cinesi, sempre all'avanguardia nell'innovazione tecnologica, sono ora attori chiave nell'industria dell'Eink.
 
 ---
 

@@ -12,7 +12,7 @@ key: 07-who-benefits
 
 - **Companies:** Improve productivity and employee health.
 - **Programmers:** Work longer without the eye strain.
-- **Freelancers & Digital Nomads:** EInk adapts to your lifestyle, offering flexibility without the drawbacks of traditional screens.
+- **Freelancers & Digital Nomads:** Eink adapts to your lifestyle, offering flexibility without the drawbacks of traditional screens.
 
 **Eink: A Visionary Solution for Diverse Professions**
 

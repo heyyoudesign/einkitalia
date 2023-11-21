@@ -1,6 +1,6 @@
 ---
 title: Problemi agli Occhi derivanti dall'Uso dei Monitor 🥺
-description: L'esposizione prolungata agli schermi può portare a problemi come affaticamento visivo digitale, mal di testa, occhi secchi e persino disturbi del sonno. I nostri occhi non sono stati progettati per gestire il bombardamento costante di luce. L'EInk offre sollievo, proponendo un'esperienza visiva più simile alla lettura di materiale stampato.
+description: L'esposizione prolungata agli schermi può portare a problemi come affaticamento visivo digitale, mal di testa, occhi secchi e persino disturbi del sonno. I nostri occhi non sono stati progettati per gestire il bombardamento costante di luce. L'Eink offre sollievo, proponendo un'esperienza visiva più simile alla lettura di materiale stampato.
 date: 2023-10-29
 tags:
   - benefit
@@ -8,7 +8,7 @@ tags:
   - wellbeing
 key: 03-eye-strain
 ---
-L'esposizione prolungata agli schermi può portare a problemi come affaticamento visivo digitale, mal di testa, occhi secchi e persino disturbi del sonno. I nostri occhi non sono stati progettati per gestire il bombardamento costante di luce. L'EInk offre sollievo, proponendo un'esperienza visiva più simile alla lettura di materiale stampato.
+L'esposizione prolungata agli schermi può portare a problemi come affaticamento visivo digitale, mal di testa, occhi secchi e persino disturbi del sonno. I nostri occhi non sono stati progettati per gestire il bombardamento costante di luce. L'Eink offre sollievo, proponendo un'esperienza visiva più simile alla lettura di materiale stampato.
 
 **Affaticamento Visivo Digitale: Il Costo Nascosto dell'Uso Moderno dei Monitor**
 

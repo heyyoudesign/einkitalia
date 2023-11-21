@@ -1,13 +1,13 @@
 ---
 title: "Cosa Offriamo: Vendita, Formazione, Divulgazione, Programmi di Welfare Aziendale  🛍️📚🗣️"
-description: Oltre alla semplice vendita, la mia missione è olistica. Dalla cura di una gamma diversificata di prodotti EInk di prim'ordine all'offerta di formazione su misura per gli utenti, alla divulgazione delle ultime ricerche su EInk, fino all'introduzione di programmi aziendali, il mio obiettivo è rendere l'EInk una parte integrante della tua vita digitale.
+description: Oltre alla semplice vendita, la mia missione è olistica. Dalla cura di una gamma diversificata di prodotti Eink di prim'ordine all'offerta di formazione su misura per gli utenti, alla divulgazione delle ultime ricerche su Eink, fino all'introduzione di programmi aziendali, il mio obiettivo è rendere l'Eink una parte integrante della tua vita digitale.
 date: 2023-02-10
 tags:
   - technology
   - benefit
 key: 06-offer
 ---
-Oltre alla semplice vendita, la mia missione è olistica. Dalla cura di una gamma diversificata di prodotti EInk di prim'ordine all'offerta di formazione su misura per gli utenti, alla divulgazione delle ultime ricerche su EInk, fino all'introduzione di programmi aziendali, il mio obiettivo è rendere l'EInk una parte integrante della tua vita digitale.
+Oltre alla semplice vendita, la mia missione è olistica. Dalla cura di una gamma diversificata di prodotti Eink di prim'ordine all'offerta di formazione su misura per gli utenti, alla divulgazione delle ultime ricerche su Eink, fino all'introduzione di programmi aziendali, il mio obiettivo è rendere l'Eink una parte integrante della tua vita digitale.
 
 ---
 

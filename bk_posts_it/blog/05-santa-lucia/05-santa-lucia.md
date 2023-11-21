@@ -1,13 +1,13 @@
 ---
 title: Santa Lucia Protettrice degli Occhi 🌟
-description: Venerata in racconti e tradizioni, Santa Lucia è un faro per la protezione degli occhi. In un'epoca dominata dagli schermi, adattare l'EInk non solo simboleggia l'onorare il suo retaggio, ma anche lavorare attivamente verso pratiche oculari più salutari.
+description: Venerata in racconti e tradizioni, Santa Lucia è un faro per la protezione degli occhi. In un'epoca dominata dagli schermi, adattare l'Eink non solo simboleggia l'onorare il suo retaggio, ma anche lavorare attivamente verso pratiche oculari più salutari.
 date: 2023-09-30
 tags:
   - stories
   - benefit
 key: 05-santa-lucia
 ---
-Venerata in racconti e tradizioni, Santa Lucia è un faro per la protezione degli occhi. In un'epoca dominata dagli schermi, adattare l'EInk non solo simboleggia l'onorare il suo retaggio, ma anche lavorare attivamente verso pratiche oculari più salutari.
+Venerata in racconti e tradizioni, Santa Lucia è un faro per la protezione degli occhi. In un'epoca dominata dagli schermi, adattare l'Eink non solo simboleggia l'onorare il suo retaggio, ma anche lavorare attivamente verso pratiche oculari più salutari.
 
 {% image "./public/img/santa-lucia-stilizzata-in-tablet.png", "Un'illustrazione stilizzata in bianco e nero di Santa Lucia, visualizzata su un display di un tablet e-ink." %}
 

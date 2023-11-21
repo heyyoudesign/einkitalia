@@ -1,13 +1,13 @@
 ---
 title: Perché l'Eink? 🤷‍♀️
-description: Nel mezzo della rapida trasformazione digitale, il comfort visivo spesso passa in secondo piano. Le proprietà uniche dell'EInk significano che utilizza meno energia, offre una durata eccezionale della batteria e, soprattutto, regala agli utenti un'esperienza di lettura senza riflessi e amica degli occhi, riducendo l'affaticamento visivo digitale.
+description: Nel mezzo della rapida trasformazione digitale, il comfort visivo spesso passa in secondo piano. Le proprietà uniche dell'Eink significano che utilizza meno energia, offre una durata eccezionale della batteria e, soprattutto, regala agli utenti un'esperienza di lettura senza riflessi e amica degli occhi, riducendo l'affaticamento visivo digitale.
 date: 2023-01-10
 tags:
   - technology
   - benefit
 key: 02-why-eink
 ---
-Nel mezzo della rapida trasformazione digitale, il comfort visivo spesso passa in secondo piano. Le proprietà uniche dell'EInk significano che utilizza meno energia, offre una durata eccezionale della batteria e, soprattutto, regala agli utenti un'esperienza di lettura senza riflessi e amica degli occhi, riducendo l'affaticamento visivo digitale.
+Nel mezzo della rapida trasformazione digitale, il comfort visivo spesso passa in secondo piano. Le proprietà uniche dell'Eink significano che utilizza meno energia, offre una durata eccezionale della batteria e, soprattutto, regala agli utenti un'esperienza di lettura senza riflessi e amica degli occhi, riducendo l'affaticamento visivo digitale.
 
 ---
 

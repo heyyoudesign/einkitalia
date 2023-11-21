@@ -1,13 +1,13 @@
 ---
 title: La Scrittura dalla Carta allo Schermo 📜➡️💻
-description: Mentre i mezzi di scrittura si sono spostati dalle pietre al papiro, alla carta e ora agli schermi, l'essenza della comunicazione rimane intatta. L'EInk funge da ponte, catturando il calore tattile della carta pur offrendo i vantaggi del digitale, che si tratti di ricerca, archiviazione o condivisione.
+description: Mentre i mezzi di scrittura si sono spostati dalle pietre al papiro, alla carta e ora agli schermi, l'essenza della comunicazione rimane intatta. L'Eink funge da ponte, catturando il calore tattile della carta pur offrendo i vantaggi del digitale, che si tratti di ricerca, archiviazione o condivisione.
 date: 2023-01-23
 draft: false
 tags:
   - benefit
 key: 04-from-paper-to-screen
 ---
-Mentre i mezzi di scrittura si sono spostati dalle pietre al papiro, alla carta e ora agli schermi, l'essenza della comunicazione rimane intatta. L'EInk funge da ponte, catturando il calore tattile della carta pur offrendo i vantaggi del digitale, che si tratti di ricerca, archiviazione o condivisione.
+Mentre i mezzi di scrittura si sono spostati dalle pietre al papiro, alla carta e ora agli schermi, l'essenza della comunicazione rimane intatta. L'Eink funge da ponte, catturando il calore tattile della carta pur offrendo i vantaggi del digitale, che si tratti di ricerca, archiviazione o condivisione.
 
 ---
 
