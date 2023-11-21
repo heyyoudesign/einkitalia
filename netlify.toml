@@ -1,3 +1,15 @@
+# redirect to english or italian landing pages.
+
+[[redirects]]
+from = "/"
+to = "/it"
+status = 302
+force = true
+
+# conditions = {Language = ["it"]}
+
+
+
 [[headers]]
     for = "/*"
     [headers.values]
