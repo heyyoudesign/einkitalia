@@ -6,7 +6,7 @@ module.exports = {
     domain: 'einkitalia.com',
     siteType: 'Organization', // schema
     author: 'Adriano Urso',
-    authorEmail: 'ajaneu@gmail.com',
+    authorEmail: 'adriano@einkitalia.com',
     authorWebsite: 'https://einkitalia.com',
     authorAvatar: '/img/adrianourso.png',
     themeColor: '#E54848', //  Manifest: defines the default theme color for the application
@@ -32,7 +32,7 @@ module.exports = {
       country: 'Italy',
       mobileDisplay: '+39 333 9278493',
       mobileCall: ' +393339278493',
-      email: 'ajaneu@gmail.com',
+      email: 'adriano@einkitalia.com',
       cif: ''
     },
   

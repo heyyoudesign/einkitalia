@@ -5,7 +5,7 @@ module.exports = {
 	description: "Explore the groundbreaking world of Eink with Eink Italia. Discover top-tier Eink products, benefits, and the technology's profound impact on eye health in the digital age. Join the Eink revolution today.",
 	author: {
 		name: "Adriano Urso",
-		email: "ajaneu@gmail.com",
+		email: "adriano@einkitalia.com",
 		url: "https://einkitalia.com/it/chi-sono/"
 	}
 }

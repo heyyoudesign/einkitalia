@@ -33,7 +33,7 @@ Questo sito web si trasmette utilizzando HTTPS, crittografando tutti i dati tra 
 ## Responsabile del trattamento dei dati
 
 {{ meta.address.firma }} - 
-{{ meta.address.city }}, {{ meta.address.country }}
+{{ meta.address.state }}, {{ meta.address.country }}
 
 Se hai domande o dubbi, contattami: <a href="mailto:{{ meta.address.email }}">{{ meta.address.email }}</a>
 
