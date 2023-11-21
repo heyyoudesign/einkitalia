@@ -5,10 +5,13 @@ from = "/"
 to = "/it"
 status = 302
 force = true
+conditions = {Language = ["it"]}
 
-# conditions = {Language = ["it"]}
-
-
+[[redirects]]
+from = "/"
+to = "/en"
+status = 302
+force = true
 
 [[headers]]
     for = "/*"
