@@ -97,8 +97,9 @@
 		href="{{ meta.url }}{{ page.url }}"
 		/><!-- Helps prevent duplicate content issues -->
 
-		<!-- Plausible - no tracking no cookie analytics GDPR compliant -->
-		<script defer data-domain="einkitalia.com" src="https://plausible.io/js/script.js"></script>
+		<!-- Plausible - no tracking no cookie analytics GDPR compliant 
+		<script defer data-domain="einkitalia.com" src="https://plausible.io/js/script.js"></script> -->
+		<script defer event-language="{{ page.lang }}" data-domain="einkitalia.com" src="https://plausible.io/js/script.pageview-props.js"></script>
 		
 	</head>
 	<body>

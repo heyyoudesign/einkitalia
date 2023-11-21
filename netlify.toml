@@ -16,7 +16,7 @@ force = true
 [[headers]]
     for = "/*"
     [headers.values]
-    Content-Security-Policy = "upgrade-insecure-requests; block-all-mixed-content;"
+    Content-Security-Policy = "*.plausible.io; upgrade-insecure-requests; block-all-mixed-content;" 
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
