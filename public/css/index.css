@@ -144,6 +144,11 @@ pre:not([class*="language-"]) {
 code {
 	word-break: break-all;
 }
+picture, img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 /* Header */
 header {
